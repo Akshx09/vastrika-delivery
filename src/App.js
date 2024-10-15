@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<><Login/></>}/>
-        <Route path="/order" element={<><Nav/><Order/><otp/></>}/>
+        <Route path="/order" element={<><Nav/><Order/></>}/>
       </Routes>
       <ToastContainer />
     </div>
