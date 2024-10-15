@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100vw;
+    height: auto;
+    border-color: black;
+}
+
+thead{
+    background-color: rgb(206, 206, 245);
+}
+tbody{
+    background-color: lavender;
+}
+
+tr{
+    height: 40px;
+}
+
+tr button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(146, 239, 146);
+    border: none;
+}
+tr button:hover{
+    background-color: rgb(69, 232, 69);
+}
+
+.delivery{
+    width: 300px;
+}
+
+input{
+    height: 15px;
+    background-color: white;
+    padding: 5px;
+}
