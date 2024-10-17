@@ -7,7 +7,7 @@ nav{
     background-color: rgb(199, 186, 255);
     @media (max-width: 500px) {
         display: block;
-        height: 17vh;
+        height: 25vh;
         padding: 10px 20px;
     }
 }
@@ -66,7 +66,7 @@ nav{
     align-items: center;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    margin-right: 400px;
+    margin-right: 100px;
     transition: all 0.2s ease-out;
     @media (max-width: 500px){
         margin: 0 0 10px 0;
@@ -96,4 +96,26 @@ nav{
 }
 .search-bar input:focus{
     outline: none;
+}
+
+.current , .remain{
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.current{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.current:hover, .remain:hover{
+    background-color: rgb(143, 94, 255);
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
